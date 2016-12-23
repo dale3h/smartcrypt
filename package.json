@@ -1,0 +1,29 @@
+{
+  "name": "smartcrypt",
+  "version": "1.0.0",
+  "description": "Multi-pass array encryption library",
+  "main": "lib/smartcrypt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dale3h/smartcrypt.git"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "base64",
+    "algorithm",
+    "buffer"
+  ],
+  "author": "Dale Higgs <@dale3h>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dale3h/smartcrypt/issues"
+  },
+  "homepage": "https://github.com/dale3h/smartcrypt#readme",
+  "dependencies": {
+    "crypto": "0.0.3"
+  }
+}
