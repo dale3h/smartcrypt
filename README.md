@@ -34,9 +34,9 @@ var crypt = new SmartCrypt(keys);
 var encrypted = crypt.encrypt(['foo@bar.com', 'foobar123']).toString('base64');
 console.log('encrypted:', encrypted);
 
-var decrypted = this.crypt.decrypt(encrypted);
-console.log('username:', decrypted[0]);
-console.log('password:', decrypted[1]);
+var decrypted = crypt.decrypt(encrypted);
+console.log('username:', decrypted[0].toString());
+console.log('password:', decrypted[1].toString());
 ```
 
 ### Using a unique key for each variable
@@ -54,7 +54,7 @@ var crypt = new SmartCrypt(keys);
 var encrypted = crypt.encrypt(['foo@bar.com', 'foobar123']).toString('base64');
 console.log('encrypted:', encrypted);
 
-var decrypted = this.crypt.decrypt(encrypted);
-console.log('username:', decrypted[0]);
-console.log('password:', decrypted[1]);
+var decrypted = crypt.decrypt(encrypted);
+console.log('username:', decrypted[0].toString());
+console.log('password:', decrypted[1].toString());
 ```
